@@ -1,6 +1,11 @@
+* {
+    color: #52586e;
+}
+
 body {
-    background-color: rgb(243, 194, 245);
+    background-color:#ffd6ba;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
 }
 
 .header {
@@ -8,29 +13,39 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0;
-  }
+}
   
-  .header h1 {
+.header h1 {
     line-height: 1em;
     font-size: 40px;
-  }
+}
   
-  .header nav ul {
+.header nav ul {
     list-style: none; 
 
-  }
+}
   
-  .header nav ul li {
+.header nav ul li {
     display: inline-block; 
     margin-right: 25px; 
     font-size: 30px;
-  }
+}
 
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+section {
+    line-height: 1.7em;
+}
 .image-and-text {
     display: flex;
-    font-size: 20px;
+    font-size: 25px;
     align-items: center;
-
 }
 
 .image-and-text img {
