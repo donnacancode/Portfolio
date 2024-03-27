@@ -141,7 +141,3 @@ a:hover {
     text-align: center;
     color:#faedcd;
 }
-
-@media screen and (max-width: 800px) {
-    flex-direction: column;
-}
