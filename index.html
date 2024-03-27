@@ -1,61 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Donna Burns</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="\assets\DB.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Hi! I'm Donna!</title>
+  </head>
 
-<body>
-    <nav class="header">
-        <h1>Donna Burns</h1>  
-        <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>                
-                <li><a href="#projects-im-proud-of">Projects I'm Proud Of</a></li>  
-                <li><a href="#contact-me">Contact Me</a></li>   
-            </ul>
-        </nav>     
+  <body>
+      <h1>Donna Burns</h1>
+
+    <nav class="navbar">
+      <a href="#section1">About Me</a>
+      <a href="#section2">Things I'm Proud Of</a>
+      <a href="#section3">Contact Me</a>
     </nav>
 
-    <section> 
-        <h2>About Me:</h2>
-        <div class="image-and-text">
-            <img src= "\assets\PXL_20230927_024057513~2.jpg" alt="Image of Donna Burns">
-            <p>After spending over twenty years in the event management industry, I figured it was the right time to completely blow up my life and try something radically different- so here I am, attempting to learn how to code. 
-            <br>
-            <br>
-            <strong>Naturally!</strong>
-            <br>
-            <br>
-            While I've never been the person to take things apart and figure out how they work (that was always my brother!), I've always enjoyed building things, in both the physical and metaphorical sense.  
-            <br>
-            <br>
-            I may not be the most experienced coder, but if life has taught me anything, it's that you're never too old to learn new (really hard!) things!</p>
+    <section id="section1">
+      <section class="hero">
+        <figure class="profile-pic">
+          <img
+            src="\assets\PXL_20230927_024057513~2.jpg"
+            alt="Image of Donna Burns"
+            title="Hey there!"
+            width="1124"
+            height="1399"
+          />
+        </figure>
+        <p>
+          <strong>Hi! I'm Donna!</strong>
+          <br />
+          Over the past two decades, I've worked hard to build a successful
+          career in the event management industry. I figured it was the right
+          time to completely blow up my life and try something radically
+          different- so here I am, attempting to learn how to code.
+          <br /><strong>Why not?</strong>
+          <br />
+          I've never been the person to take things apart and figure out how
+          they work, but I've always enjoyed building things, in both the
+          physical and metaphorical sense. While I may not be the most
+          experienced coder, if life has taught me anything, it's that you're
+          never too old to learn new things, and it's always a good idea to push
+          yourself outside of your comfort zone!
+          <br />
+          When I'm not parked in front of a computer, I enjoy spending time with
+          my husband, our dog, and our three cats.  I am so excited to learn how to make websites both pretty and functional!  I have two personal projects in the pipeline that I can't wait to get started on!
+        </p>
+      </section>
+    </section>
+
+    <section id="section2">
+      <h2>Projects I'm Proud Of:</h2>
+      <div class="flex-container">
+        <div class="box box-large">
+        <a href="https://donnacancode.github.io/Horiseon-Refactor/" target="_blank">
+          <img src="assets\Horiseon Blue.png">
+        </a>
+          <div class="overlay">Horiseon Refactor: HTML and CSS</div>
         </div>
+      </div>
+
+      <div class="flex-container2">
+          <div class="box">
+            <img src="assets\beacon.jpg">
+            <div class="overlay">Beacon Consulting & Advisory <br><em>(coming soon!)</em></div>
+            </div>  
+        <div class="box">
+          <img src="assets\Beer.jpg">
+          <div class="overlay">Ross Brewing <br><em>(coming soon!)</em></div>
+          </div>  
+          <div class="box">
+            <img src="assets\grass.webp">
+            <div class="overlay">Another Fun Project TBD!</div>
+            </div>
+        <div class="box">
+          <img src="assets\beach.png">
+          <div class="overlay">Yet Another Fun Project TBD!</div>
+          </div>
+      </div>
     </section>
 
-    <section> 
-        <h2>Projects I'm Proud Of:</h2>
-        <div class= maincontainer></div>
-            <div class= container1></div>
-            <a href="https://donnacancode.github.io/Horiseon-Refactor/" target="_blank">Horiseon Refactor</a>
-            <div class= container2></div>
-            <a href="#">Chris's Website (coming soon!)</a>
-            <div class= container3></div>
-            <a href="#">Tipout Calculator (coming soon!)</a>
-            <div class= container4></div>
-            <a href="#">Our Back Yard Overhaul (coming soon!)</a>
-            <div class= container5></div>
-            <a href="#">Ross Brewing New Site (coming soon!)</a>
-    </section> 
-
-    <section>
-        <h2>Let's Get in Touch!</h2>
+    <section id="section3">
+      <h2>Let's stay in Touch!</h2>
+      <div class="get-in-touch">
+        <a href=mailto:"donnacancode@gmail.com">Send Fanmail Here!</a>
+        <a href="https://github.com/donnacancode">Here's my Github!</a>
+        <a href="https://pin.it/5s6H0EEyF">Yum! Recipes I Like!</a>
+      </div>
     </section>
-    <footer>
-        <p>This page is made with love and determination by Donna Burns :)</p>
+    <br>
+    <footer class="footer">
+      <p>&#128151 This page is made with much love and only a few tears of Donna Burns</p>
     </footer>
-</body>
+  </body>
 </html>
