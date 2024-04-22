@@ -141,3 +141,9 @@ a:hover {
     text-align: center;
     color:#faedcd;
 }
+
+@media screen and (max-width: 768px) {
+    main, nav {
+        display: block;
+    }
+}
