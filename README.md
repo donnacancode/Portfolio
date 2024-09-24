@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a beginner portfolio using HTML and CSS.  
+This is a beginner portfolio using HTML and CSS!  
 
 ## Installation
 
